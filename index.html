@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-06</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font aowsome CDN -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- Tailwind DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav bg-[#15803D]">
+        <div class="navbar w-[90%] mx-auto">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <!-- <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div> -->
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Parent</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl font-semibold text-white"
+              >Greeb Earth</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-white">
+              <li><a>About</a></li>
+              <li><a>Gallery</a></li>
+              <li><a>Plat a Tree</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button
+              class="btn btn-active btn-warning bg-[#FACC15] text-[#15803D] rounded-[200px]"
+            >
+              Plant a Tree
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-section bg-[#CFF0DC]">
+        <div
+          class="hero-parent-wrapper flex justify-betweenb items-center w-[90%] mx-auto"
+        >
+          <div class="hero-left flex-1">
+            <img src="./assets/hero-leaf1.png" alt="" />
+          </div>
+          <div class="hero-middle flex-1 text-center">
+            <h2 class="text-[42px] font-bold text-nowrap">
+              Plant a Tree, Grow a Future
+            </h2>
+            <p class="text-[#1F5937] w-[95%]">
+              Join our mission to plant 1 million trees and make the Earth
+              greener for future generations.
+            </p>
+            <button
+              class="btn btn-active bg-[#FACC15] text-[#15803D] rounded-[200px] mt-5"
+            >
+              Get Inovolved
+            </button>
+          </div>
+          <div class="hero-right flex-1">
+            <img src="./assets/hero-leaf2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <body class="bg-[#F0FDF4]">
+      <section class="Choose-Tree h-[500px]">
+        <div class="w-[90%] mx-auto">
+          <h3 class="font-bold text-[32px] mx-auto">Choose Your Trees</h3>
+          <div></div>
+        </div>
+      </section>
+      <section class="Campaign">
+        <div
+          class="campign-parent-wrapper flex items-center justify-center gap-6 w-[90%] mx-auto"
+        >
+          <div class="campign-left flex-1">
+            <img class="h-auto w-[700px]" src="./assets/about.png" alt="" />
+          </div>
+          <div class="campign-right flex-1">
+            <p class="text-[18px] w-[80%]">
+              Green Earth is a global tree plantation initiative dedicated to
+              fighting climate change. Since our start, we’ve planted over
+              500,000 trees worldwide. By joining our campaign, you help restore
+              forests, create habitats for wildlife, and combat global warming.
+            </p>
+            <ul class="mt-8">
+              <li class="text-[16px]">Restoration of natural habitats</li>
+              <li class="text-[16px]">Improvement of air quality</li>
+              <li class="text-[16px]">Support for local communities</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="Impact-section mt-20">
+        <div
+          class="impact-wrapper flex items-center justify-between gap-8 w-[90%] mx-auto px-3"
+        >
+          <div class="card-body items-center bg-white">
+            <h2 class="card-title font-bold text-[#15803D]">500K+</h2>
+            <p>Trees Planted</p>
+          </div>
+          <div class="card-body items-center bg-white">
+            <h2 class="card-title font-bold text-[#15803D]">120+</h2>
+            <p>Communities Involved</p>
+          </div>
+          <div class="card-body items-center bg-white">
+            <h2 class="card-title font-bold text-[#15803D]">30+</h2>
+            <p>Countries Reached</p>
+          </div>
+        </div>
+      </section>
+      <section class="from bg-[#166534]">
+        <div class="from-parent-wrapper w-[90%] mx-auto text-center">
+          <h2 class="text-white font-bold text-[32px] pt-30">
+            Plant a Tree Today
+          </h2>
+          <div
+            class="from-inner-wrapper items-center m-0 bg-[#15803D] p-10 w-[500px]"
+          >
+            <div class="f-name">
+              <input
+                class="input validator w-[350px]"
+                type="text"
+                required
+                placeholder="Your Name"
+              />
+              <div class="validator-hint">Enter valid email address</div>
+            </div>
+            <div class="f-email">
+              <input
+                class="input validator w-[350px]"
+                type="email"
+                required
+                placeholder="Your Email"
+              />
+              <div class="validator-hint">Enter valid email address</div>
+            </div>
+            <div class="f-number">
+              <form>
+                <select class="select validator w-[350px]" required>
+                  <option disabled selected value="">Number of Trees</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+                <p class="validator-hint">Required</p>
+                <button
+                  class="btn bg-[#FACC15] rounded-[100px] w-[350px]"
+                  type="button"
+                >
+                  Donate Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <footer></footer>
+  </body>
+</html>
